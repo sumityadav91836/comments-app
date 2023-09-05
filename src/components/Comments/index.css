@@ -1,0 +1,110 @@
+.app-container {
+  padding: 60px 60px 40px 90px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-bottom: 20px;
+}
+
+.content-container {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+}
+
+.description {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.name-input {
+  height: 40px;
+  width: 500px;
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Roboto;
+  border: 1px solid #475569;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-texarea {
+  border: 1px solid #475569;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Roboto;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-comments-button {
+  height: 50px;
+  width: 150px;
+  color: #fff;
+  background-color: #0284c7;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-container {
+  height: auto;
+}
+
+.image {
+  width: 100%;
+}
+
+.comment-section {
+  display: flex;
+}
+
+.comment-count {
+  height: 30px;
+  width: 30px;
+  background-color: #0284c7;
+  margin: 15px 0px 25px 0px;
+}
+
+.nums {
+  color: #fff;
+  text-align: center;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.comments {
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #000;
+  margin: 15px 0px 20px 10px;
+}
+
+.comments-items {
+  list-style-type: none;
+  margin: 0px;
+}
